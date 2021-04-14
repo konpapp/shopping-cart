@@ -1,0 +1,15 @@
+input[type="radio"] {
+  margin: 0.5vw;
+}
+
+.listing-title {
+  font-size: xx-large;
+}
+
+.listing-price {
+  font-size: larger;
+}
+
+button.quantity {
+  float: right;
+}
