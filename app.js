@@ -68,7 +68,8 @@ var App = function (_React$Component) {
                 });
             } else {
                 this.setState({
-                    plane: this.state.plane.slice(0, -2)
+                    plane: this.state.plane.slice(0, -2),
+                    totalCost: calculateCosts([this.state.car.length / 3, this.state.bike.length / 2, this.state.plane.slice(0, -2).length / 2, this.state.spaceship.length / 2])
                 });
             }
         }
