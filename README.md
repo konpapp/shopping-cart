@@ -13,3 +13,6 @@ Portal selling the following items:
 - I can buy one piece of each item,
 - I see an overview of what the user is choosing to buy,
 - Calculate the total price and show the different options chosen by the user.
+
+## Requirements:
+React.js
